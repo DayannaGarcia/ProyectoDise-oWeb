@@ -1,0 +1,1279 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+header{
+  width: 100%;
+  height: 149px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #004c5a;
+  /*background-image: url("../Imagenes/header2.jpg");*/
+}
+#logo{
+  width: 321px;
+  height: 115px;
+  margin-left: 80px;
+  margin-top: 15px;
+  /*border: 1px;
+  border-style:solid;*/
+  float: left;
+  background-image: url("../Imagenes/imgheader.jpg");
+
+}
+#mayu{
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Algerian';
+  color: #ffffff;
+  text-align: center;
+  font-size: 45px;
+}
+#mini{
+  font-family: 'Algerian';
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+
+  height: 0px;
+}
+#nombre{
+  width: 800px;
+  height: 115px;
+  /*border: 1px;
+  border-style:solid;*/
+  margin-top: 15px;
+  margin-left: 220px;
+  float: left;
+
+}
+#contenido{
+  width: 100%;
+  height: 550px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgb(204,234,235);
+}
+#boton{
+ margin-top: 400px;
+ margin-left: 180px;
+  /*width: 200px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 20px;*
+  /*border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(204, 234, 235);*/
+}
+/*#boton a{
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: 'Slabo 27px', serif;
+}*/
+#mision{
+  width: 33%;
+  height: 550px;
+  float: left;
+
+}
+#vision{
+  width: 33%;
+  height: 550px;
+  float: left;
+
+}
+#centro{
+  width: 34%;
+  height: 550px;
+  float: left;
+}
+#escudo{
+  width: 38%;
+  height: 200px;
+  float: left;
+  margin: 20px;
+  background-image: url("../Imagenes/Escudosinfondo.png");
+  margin-top: 200px;
+}
+#epn{
+  width: 38%;
+  height: 190px;
+  float: left;
+  margin: 20px;
+  background-image: url("../Imagenes/EPNsinfondo.png");
+  margin-top: 200px;
+
+}
+.titulo{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px;
+}
+p{
+  text-align: justify;
+  margin: 20px;
+  font-size: 25px;
+  font-family: 'Slabo 27px', serif;
+}
+footer{
+  width: 100%;
+  height: 50px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: #004c5a;
+}
+footer p{
+  font-size: 20px;
+  display: inline;
+  margin-left: 150px;
+  font-family: 'Slabo 27px', serif;
+}
+@media screen and (max-width: 280px) {
+#logo{
+  margin: 0px;
+  width: 100%;
+}
+#nombre{
+  margin: 0px;
+  width: 100%;
+  height: 34px;
+  }
+#mayu{
+  font-size: 12px;
+  height: 0px;
+}
+#mini{
+  font-size: 12px;
+}
+#contenido{
+    height: 1650px;
+  }
+#mision p{
+    font-size: 24px;
+  }
+#mision{
+   width: 278px;
+   text-align: justify;
+}
+#centro{
+  width: 278px;
+}
+#escudo{
+  margin-top:10px;
+  margin-left: 40px;
+  width: 72%;
+}
+#epn{
+  margin-top:10px;
+  margin-left: 40px;
+  width: 72%
+}
+#boton{
+  margin-top:10px;
+  margin-left: 80px;
+
+}
+#vision{
+   width: 278px;
+   text-align: justify;
+}
+#vision p{
+  font-size: 20px;
+}
+footer p{
+  font-size: 12px;
+  margin-left: 10px;
+}
+}
+@media screen and (min-width: 281px) and (max-width: 343px)  {
+#logo{
+    margin: 0px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+  #nombre{
+    margin: 0px;
+    width: 100%;
+    height: 34px;
+}
+#mayu{
+    font-size: 12px;
+    height: 0px;
+}
+#mini{
+    font-size: 12px;
+  }
+#contenido{
+    height: 1650px;
+  }
+#mision{
+   width: 100%;
+   text-align: justify;
+}
+#mision p{
+    font-size: 24px;
+  }
+#centro{
+  width: 100%;
+  float: left;
+}
+#escudo{
+  margin-top:10px;
+  margin-left: 50px;
+  width: 72%;
+  background-repeat: no-repeat;
+}
+#epn{
+  margin-top:10px;
+  margin-left: 50px;
+  width: 72%;
+  background-repeat: no-repeat;
+}
+#boton{
+  margin-top:10px;
+  margin-left: 80px;
+}
+#vision{
+  width: 100%;
+  text-align: justify;
+}
+#vision p{
+  font-size: 20px;
+}
+footer p{
+  font-size: 12px;
+  margin-left: 20px;
+}
+}
+@media screen and (min-width: 344px) and (max-width: 369px)  {
+#logo{
+    margin: 0px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+#nombre{
+    margin: 0px;
+    width: 100%;
+    height: 34px;
+  }
+#mayu{
+    font-size: 16px;
+    height: 0px;
+}
+#mini{
+    font-size: 16px;
+  }
+#contenido{
+    height: 1650px;
+  }
+#mision{
+   width: 100%;
+   text-align: justify;
+}
+#mision p{
+    font-size: 24px;
+  }
+#centro{
+  width: 100%;
+}
+#escudo{
+  margin-top: 20px;
+  width: 72%;
+  background-repeat: no-repeat;
+  margin-left: 80px;
+}
+#epn{
+  margin-top: 20px;
+  width: 72%;
+  background-repeat: no-repeat;
+  margin-left: 80px;
+}
+#vision{
+  width: 100%;
+  text-align: justify;
+}
+#vision p{
+  font-size: 22px;
+}
+#boton{
+
+  margin-left: 120px;
+}
+footer p{
+  font-size: 15px;
+  margin-left: 3px;
+}
+}
+@media screen and (min-width: 370px) and (max-width: 412px)  {
+#logo{
+    margin: 0px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+}
+#nombre{
+    margin: 0px;
+    width: 100%;
+    height: 34px;
+  }
+#mayu{
+    font-size: 16px;
+    height: 0px;
+}
+#mini{
+    font-size: 16px;
+  }
+#contenido{
+    height: 1650px;
+  }
+#mision{
+   width: 100%;
+   text-align: justify;
+}
+#mision p{
+    font-size: 26px;
+  }
+#centro{
+  width: 100%;
+}
+#escudo{
+  margin-top: 10px;
+  width: 72%;
+  background-repeat: no-repeat;
+  margin-left: 80px;
+}
+#epn{
+    margin-top: 10px;
+  width: 72%;
+  background-repeat: no-repeat;
+  margin-left: 80px;
+}
+#vision{
+  width: 100%;
+  text-align: justify;
+}
+#vision p{
+  font-size: 22px;
+}
+#boton{
+    margin-top: 10px;
+  margin-left: 120px;
+}
+footer p{
+  font-size: 15px;
+  margin-left: 15px;
+}
+}
+
+@media screen and (min-width: 413px) and (max-width: 459px)  {
+#logo{
+    margin-top:  0px;
+    width: 85%;
+    background-repeat: no-repeat;
+    margin-left: 70px;
+}
+#nombre{
+    margin: 0px;
+    width: 100%;
+    height: 34px;
+  }
+#mayu{
+    font-size: 16px;
+    height: 0px;
+}
+#mini{
+    font-size: 16px;
+  }
+#contenido{
+    height: 1650px;
+  }
+#mision{
+   width: 100%;
+   text-align: justify;
+}
+#mision p{
+    font-size: 29px;
+  }
+#centro{
+  width: 100%;
+}
+#escudo{
+    margin-top: 10px;
+  width: 72%;
+  background-repeat: no-repeat;
+  margin-left: 130px;
+}
+#epn{
+    margin-top: 10px;
+  width: 72%;
+  background-repeat: no-repeat;
+  margin-left: 130px;
+}
+#vision{
+  width: 100%;
+  text-align: justify;
+}
+#vision p{
+  font-size: 26px;
+}
+#boton{
+    margin-top: 10px;
+  margin-left: 160px;
+}
+footer p{
+  font-size: 17px;
+  margin-left: 17px;
+}
+}
+@media screen and (min-width: 460px) and (max-width: 490px)  {
+  #logo{
+      margin: 0px;
+      width: 70%;
+      background-repeat: no-repeat;
+      margin-left: 80px;
+  }
+  #nombre{
+      margin: 0px;
+      width: 100%;
+      height: 34px;
+    }
+  #mayu{
+      font-size: 16px;
+      height: 0px;
+  }
+  #mini{
+      font-size: 16px;
+    }
+#contenido{
+    height: 1650px;
+  }
+#mision{
+   width: 100%;
+   text-align: justify;
+}
+#mision p{
+    font-size: 30px;
+  }
+#centro{
+  width: 100%;
+}
+#escudo{
+  margin-top: 10px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-left: 150px;
+
+}
+#epn{
+  margin-top: 10px;
+  width: 45%;
+  background-repeat: no-repeat;
+  margin-left: 150px;
+}
+#vision{
+  width: 100%;
+  text-align: justify;
+}
+#vision p{
+  font-size: 26px;
+}
+#boton{
+    margin-top: 430px;
+    margin-left: 180px;
+}
+footer p{
+  font-size: 18px;
+  margin-left: 20px;
+}
+}
+@media screen and (min-width: 490px) and (max-width: 530px)  {
+  #logo{
+      margin: 0px;
+      width: 70%;
+      background-repeat: no-repeat;
+      margin-left: 80px;
+  }
+  #nombre{
+      margin: 0px;
+      width: 100%;
+      height: 34px;
+    }
+  #mayu{
+      font-size: 16px;
+      height: 0px;
+  }
+  #mini{
+      font-size: 16px;
+    }
+#contenido{
+    height: 1650px;
+  }
+#mision{
+   width: 100%;
+   text-align: justify;
+}
+#mision p{
+    font-size: 30px;
+  }
+#centro{
+  width: 100%;
+}
+#escudo{
+  margin-top: 10px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-left: 180px;
+
+}
+#epn{
+  margin-top: 10px;
+  width: 45%;
+  background-repeat: no-repeat;
+margin-left: 180px;
+}
+#vision{
+  width: 100%;
+  text-align: justify;
+}
+#vision p{
+  font-size: 26px;
+}
+#boton{
+    margin-top: 430px;
+  margin-left: 215px;
+}
+footer p{
+  font-size: 18px;
+  margin-left: 20px;
+}
+}
+@media screen and (min-width: 530px) and (max-width: 620px)  {
+  #logo{
+      margin: 0px;
+      width: 60%;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+  }
+  #nombre{
+      margin: 0px;
+      width: 40%;
+      margin-top: 15px;
+    }
+  #mayu{
+      font-size: 16px;
+
+  }
+  #mini{
+      font-size: 16px;
+    }
+#contenido{
+    height: 1650px;
+  }
+#mision{
+   width: 100%;
+   text-align: justify;
+}
+#mision p{
+    font-size: 30px;
+  }
+#centro{
+  width: 100%;
+}
+#escudo{
+  margin-top: 10px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-left: 180px;
+
+}
+#epn{
+  margin-top: 10px;
+  width: 40%;
+  background-repeat: no-repeat;
+  margin-left: 180px;
+}
+#vision{
+  width: 100%;
+  text-align: justify;
+}
+#vision p{
+  font-size: 26px;
+}
+#boton{
+    margin-top: 430px;
+  margin-left: 220px;
+}
+footer p{
+  font-size: 18px;
+  margin-left: 40px;
+}
+}
+@media screen and (min-width: 620px) and (max-width: 700px)  {
+  #logo{
+      margin: 0px;
+      width: 52%;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+
+  }
+  #nombre{
+      margin: 0px;
+      width: 48%;
+      margin-top: 15px;
+    }
+  #mayu{
+      font-size: 24px;
+
+  }
+  #mini{
+      font-size: 16px;
+    }
+#contenido{
+    height: 1650px;
+  }
+#mision{
+   width: 100%;
+   text-align: justify;
+}
+#mision p{
+    font-size: 36px;
+  }
+#centro{
+  width: 100%;
+}
+#escudo{
+  width: 72%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-left: 210px;
+}
+#epn{
+  width: 72%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-left: 210px;
+}
+#vision{
+  width: 100%;
+  text-align: justify;
+}
+#vision p{
+  font-size: 30px;
+}
+#boton{
+    margin-top: 430px;
+  margin-left: 250px;
+}
+footer p{
+  font-size: 18px;
+  margin-left: 50px;
+}
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  #logo{
+      margin: 0px;
+      width: 52%;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+
+  }
+  #nombre{
+      margin: 0px;
+      width: 48%;
+      margin-top: 15px;
+    }
+  #mayu{
+      font-size: 24px;
+
+  }
+  #mini{
+      font-size: 16px;
+    }
+/*#contenido{
+    height: 1650px;
+  }*/
+#mision{
+   /*width: 100%;*/
+   text-align: justify;
+}
+#mision p{
+    font-size: 20px;
+  }
+#centro{
+  /*width: 100%;*/
+}
+#escudo{
+  width: 84%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+#epn{
+  width: 80%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+#vision{
+/*  width: 100%;*/
+  text-align: justify;
+}
+#vision p{
+  font-size: 18px;
+}
+#boton{
+  margin-left: 70px;
+}
+footer p{
+  font-size: 18px;
+  margin-left: 10px;
+}
+}
+@media screen and (min-width: 800px) and (max-width: 850px){
+  #logo{
+      margin: 0px;
+      width: 42%;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+
+  }
+  #nombre{
+      margin: 0px;
+      width: 58%;
+      margin-top: 15px;
+    }
+  #mayu{
+      font-size: 26px;
+
+  }
+  #mini{
+      font-size: 22px;
+    }
+/*#contenido{
+    height: 1650px;
+  }*/
+#mision{
+   /*width: 100%;*/
+   text-align: justify;
+}
+#mision p{
+    font-size: 22px;
+  }
+#centro{
+  /*width: 100%;*/
+}
+#escudo{
+  width: 84%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+#epn{
+  width: 80%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+#vision{
+/*  width: 100%;*/
+  text-align: justify;
+}
+#vision p{
+  font-size: 18px;
+}
+#boton{
+  margin-left: 80px;
+}
+footer p{
+  font-size: 18px;
+  margin-left: 40px;
+}
+}
+@media screen and (min-width: 850px) and (max-width: 900px) {
+  #logo{
+      margin: 0px;
+      width: 42%;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+
+  }
+  #nombre{
+      margin: 0px;
+      width: 58%;
+      margin-top: 15px;
+    }
+  #mayu{
+      font-size: 26px;
+
+  }
+  #mini{
+      font-size: 22px;
+    }
+/*#contenido{
+    height: 1650px;
+  }*/
+#mision{
+   /*width: 100%;*/
+   text-align: justify;
+}
+#mision p{
+    font-size: 22px;
+  }
+#centro{
+  /*width: 100%;*/
+}
+#escudo{
+  width: 84%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+#epn{
+  width: 80%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+#vision{
+/*  width: 100%;*/
+  text-align: justify;
+}
+#vision p{
+  font-size: 20px;
+}
+#boton{
+  margin-left: 90px;
+}
+footer p{
+  font-size: 18px;
+  margin-left: 40px;
+}
+}
+@media screen and (min-width: 900px) and (max-width: 1000px) {
+  #logo{
+      margin: 0px;
+      width: 36%;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+
+  }
+  #nombre{
+      margin: 0px;
+      width: 64%;
+      margin-top: 15px;
+    }
+  #mayu{
+      font-size: 32px;
+
+  }
+  #mini{
+      font-size: 28px;
+    }
+/*#contenido{
+    height: 1650px;
+  }*/
+#mision{
+   /*width: 100%;*/
+   text-align: justify;
+}
+#mision p{
+    font-size: 22px;
+  }
+#centro{
+  /*width: 100%;*/
+}
+#escudo{
+  width: 84%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+#epn{
+  width: 80%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+#vision{
+/*  width: 100%;*/
+  text-align: justify;
+}
+#vision p{
+  font-size: 20px;
+}
+#boton{
+  margin-left: 90px;
+}
+footer p{
+  font-size: 18px;
+  margin-left: 40px;
+}
+}
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  #logo{
+      margin: 0px;
+      width: 32%;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+
+  }
+  #nombre{
+      margin: 0px;
+      width: 68%;
+      margin-top: 15px;
+    }
+  #mayu{
+      font-size: 36px;
+
+  }
+  #mini{
+      font-size: 30px;
+    }
+/*#contenido{
+    height: 1650px;
+  }*/
+#mision{
+   /*width: 100%;*/
+   text-align: justify;
+}
+#mision p{
+    font-size: 26px;
+  }
+#centro{
+  /*width: 100%;*/
+}
+#escudo{
+  width: 84%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+#epn{
+  width: 80%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+#vision{
+/*  width: 100%;*/
+  text-align: justify;
+}
+#vision p{
+  font-size: 22px;
+}
+#boton{
+  margin-left: 115px;
+}
+footer p{
+  font-size: 18px;
+  margin-left: 60px;
+}
+}
+@media screen and (min-width: 1100px) and (max-width: 1200px) {
+  #logo{
+      margin: 0px;
+      width: 30%;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+
+  }
+  #nombre{
+      margin: 0px;
+      width: 70%;
+      margin-top: 15px;
+    }
+  #mayu{
+      font-size: 40px;
+
+  }
+  #mini{
+      font-size: 30px;
+    }
+/*#contenido{
+    height: 1650px;
+  }*/
+#mision{
+   /*width: 100%;*/
+   text-align: justify;
+}
+#mision p{
+    font-size: 26px;
+  }
+#centro{
+  /*width: 100%;*/
+}
+#escudo{
+  width: 84%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+#epn{
+  width: 80%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+#vision{
+/*  width: 100%;*/
+  text-align: justify;
+}
+#vision p{
+  font-size: 22px;
+}
+#boton{
+  margin-left: 140px;
+}
+footer p{
+  font-size: 18px;
+  margin-left: 70px;
+}
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  #logo{
+    margin: 0px;
+      width: 27%;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+
+  }
+  #nombre{
+margin: 0px;
+      width: 73%;
+      margin-top: 15px;
+
+    }
+  #mayu{
+      font-size: 42px;
+
+  }
+  #mini{
+      font-size: 34px;
+    }
+/*#contenido{
+    height: 1650px;
+  }*/
+#mision{
+   /*width: 100%;*/
+   text-align: justify;
+}
+#mision p{
+    font-size: 26px;
+  }
+#centro{
+  /*width: 100%;*/
+}
+#escudo{
+  width: 84%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+#epn{
+  width: 80%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+#vision{
+/*  width: 100%;*/
+  text-align: justify;
+}
+#vision p{
+  font-size: 24px;
+}
+#boton{
+  margin-top: 20px;
+  margin-left: 160px;
+}
+footer p{
+  font-size: 20px;
+  margin-left: 80px;
+}
+}
+@media screen and (min-width: 1300px) and (max-width: 1356px) {
+  #logo{
+    margin: 0px;
+      width: 27%;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+
+  }
+  #nombre{
+margin: 0px;
+      width: 73%;
+      margin-top: 15px;
+
+    }
+  #mayu{
+      font-size: 42px;
+
+  }
+  #mini{
+      font-size: 34px;
+    }
+/*#contenido{
+    height: 1650px;
+  }*/
+#mision{
+   /*width: 100%;*/
+   text-align: justify;
+}
+#mision p{
+    font-size: 26px;
+  }
+#centro{
+  /*width: 100%;*/
+}
+#escudo{
+  width: 45%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+#epn{
+  width: 44%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+#vision{
+/*  width: 100%;*/
+  text-align: justify;
+}
+#vision p{
+  font-size: 24px;
+}
+#boton{
+  margin-top: 20px;
+  margin-left: 160px;
+}
+footer p{
+  font-size: 20px;
+  margin-left: 100px;
+}
+}
+@media screen and (min-width: 1356px) and (max-width: 1425px) {
+  #logo{
+    margin: 0px;
+      width: 27%;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+
+  }
+  #nombre{
+margin: 0px;
+      width: 73%;
+      margin-top: 15px;
+
+    }
+  #mayu{
+      font-size: 42px;
+
+  }
+  #mini{
+      font-size: 34px;
+    }
+/*#contenido{
+    height: 1650px;
+  }*/
+#mision{
+   /*width: 100%;*/
+   text-align: justify;
+}
+#mision p{
+    font-size: 26px;
+  }
+#centro{
+  /*width: 100%;*/
+}
+#escudo{
+  width: 45%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 130px;
+}
+#epn{
+  width: 44%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  margin-left: 130px;
+}
+#vision{
+/*  width: 100%;*/
+  text-align: justify;
+}
+#vision p{
+  font-size: 24px;
+}
+#boton{
+  margin-top: 450px;
+  margin-left: 170px;
+}
+footer p{
+  font-size: 20px;
+  margin-left: 120px;
+}
+}
+@media screen and (min-width: 1425px) and (max-width: 1529px) {
+  #logo{
+
+      width: 22%;
+      background-repeat: no-repeat;
+      margin-top: 15px;
+
+  }
+  #nombre{
+
+      width: 54%;
+      margin-top: 15px;
+
+    }
+  #mayu{
+      font-size: 42px;
+
+  }
+  #mini{
+      font-size: 34px;
+    }
+/*#contenido{
+    height: 1650px;
+  }*/
+#mision{
+   /*width: 100%;*/
+   text-align: justify;
+}
+#mision p{
+    font-size: 30px;
+  }
+#centro{
+  /*width: 100%;*/
+}
+#escudo{
+  width: 41%;
+  background-repeat: no-repeat;
+  margin-top: 140px;
+  /*margin-left: 130px;*/
+}
+#epn{
+  width: 40%;
+  background-repeat: no-repeat;
+  margin-top: 140px;
+  /*margin-left: 130px;*/
+}
+#vision{
+/*  width: 100%;*/
+  text-align: justify;
+}
+#vision p{
+  font-size: 26px;
+}
+#boton{
+  margin-top: 400px;
+  margin-left: 170px;
+}
+footer p{
+  font-size: 20px;
+  margin-left: 140px;
+}
+}
