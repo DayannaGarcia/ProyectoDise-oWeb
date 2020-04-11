@@ -5,20 +5,21 @@
 header{
   width: 100%;
   height: 149px;
-  border-style: solid;
+  /*border-style: solid;*/
   border-width: 1px;
-  background-color: #004c5a;
+  /*background-color: #FFFFFF;*/
+  background: rgba(255,175,75,1);
   /*background-image: url("../Imagenes/header2.jpg");*/
 }
 #logo{
-  width: 321px;
-  height: 115px;
-  margin-left: 80px;
-  margin-top: 15px;
+  width: 225px;
+  height: 150px;
+  margin-left: 50px;
+  /*margin-top: 2px;*/
   /*border: 1px;
   border-style:solid;*/
   float: left;
-  background-image: url("../Imagenes/imgheader.jpg");
+  background-image: url("../Imagenes/UND2.png");
 
 }
 #mayu{
@@ -37,12 +38,12 @@ header{
   height: 0px;
 }
 #nombre{
-  width: 800px;
-  height: 115px;
+  /*width: 1000px;
+  height: 115px;*/
   /*border: 1px;
   border-style:solid;*/
   margin-top: 15px;
-  margin-left: 220px;
+  /*margin-left: 120px;*/
   float: left;
 
 }
@@ -119,9 +120,9 @@ p{
 footer{
   width: 100%;
   height: 50px;
-  border-style: solid;
-  border-width: 1px;
-  background-color: #004c5a;
+  /*border-style: solid;
+  border-width: 1px;*/
+  background: rgba(255,175,75,1);
 }
 footer p{
   font-size: 20px;
